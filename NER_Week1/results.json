@@ -1,0 +1,71 @@
+{
+  "policy": {
+    "title": "Sample HR Leave Policy",
+    "summary": " All leave requests must be submitted through the HR portal . Unused casual leave cannot be carried forward to the next calendar year . Emergency sick leave should be reported to the manager as soon as possible . Contact the HR department if a leave balance appears incorrect or if a request remains pending beyond the expected processing time ."
+  },
+  "sentiment_analysis": [
+    {
+      "id": 1,
+      "text": "Raj was very happy with the HR team's quick response to his leave request.",
+      "sentiment": "POSITIVE",
+      "score": 0.9996
+    },
+    {
+      "id": 2,
+      "text": "Priya is frustrated because her sick leave request has been pending for two weeks.",
+      "sentiment": "NEGATIVE",
+      "score": 0.9994
+    },
+    {
+      "id": 3,
+      "text": "The HR support team at Ideas2IT was helpful, but the approval process was slow.",
+      "sentiment": "NEGATIVE",
+      "score": 0.9989
+    }
+  ],
+  "named_entity_recognition": [
+    {
+      "id": 1,
+      "text": "Raj was very happy with the HR team's quick response to his leave request.",
+      "entities": [
+        {
+          "text": "Raj",
+          "type": "PER",
+          "score": 0.9966
+        },
+        {
+          "text": "HR",
+          "type": "ORG",
+          "score": 0.7475
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Priya is frustrated because her sick leave request has been pending for two weeks.",
+      "entities": [
+        {
+          "text": "P",
+          "type": "PER",
+          "score": 0.9981
+        },
+        {
+          "text": "##riya",
+          "type": "PER",
+          "score": 0.8332
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "The HR support team at Ideas2IT was helpful, but the approval process was slow.",
+      "entities": [
+        {
+          "text": "Ideas2IT",
+          "type": "ORG",
+          "score": 0.9906
+        }
+      ]
+    }
+  ]
+}

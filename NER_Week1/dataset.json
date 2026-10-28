@@ -1,0 +1,21 @@
+
+{
+  "feedback": [
+    {
+      "id": 1,
+      "text": "Raj was very happy with the HR team's quick response to his leave request."
+    },
+    {
+      "id": 2,
+      "text": "Priya is frustrated because her sick leave request has been pending for two weeks."
+    },
+    {
+      "id": 3,
+      "text": "The HR support team at Ideas2IT was helpful, but the approval process was slow."
+    }
+  ],
+  "policy": {
+    "title": "Sample HR Leave Policy",
+    "text": "Employees receive 12 casual leave days per calendar year and 10 sick leave days per calendar year. All leave requests must be submitted through the HR portal. Employees should submit planned leave requests at least five working days in advance. Emergency sick leave should be reported to the manager as soon as possible. Leave approval depends on manager authorization and staffing requirements. Unused casual leave cannot be carried forward to the next calendar year. Employees can check their available leave balance through the employee portal. Contact the HR department if a leave balance appears incorrect or if a request remains pending beyond the expected processing time."
+  }
+}
